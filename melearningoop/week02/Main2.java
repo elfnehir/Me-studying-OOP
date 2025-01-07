@@ -1,5 +1,5 @@
-package melearningoop.week02.video29;
-
+package melearningoop.week02;
+//video29
 public class Main2 {
     public static void main(String[] args) {
         // reference type

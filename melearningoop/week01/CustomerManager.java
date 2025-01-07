@@ -1,16 +1,16 @@
-package melearningoop.week01.video27;
+package melearningoop.week01;
 
 public class CustomerManager {
 
-    public void Add(){
+    public void Add() {
         System.out.println("Müşteri eklendi.");
     }
 
-    public void Remove(){
+    public void Remove() {
         System.out.println("Müşteri silindi");
     }
 
-    public void Update(){
+    public void Update() {
         System.out.println("Müsteri güncellendi.");
     }
 }

@@ -1,6 +1,6 @@
-package melearningoop.week02.video29;
+package melearningoop.week02;
 
-public class CustomerManager2 {
+public class CustomerManager2{
 
     public void Add() {
         System.out.println("Müşteri eklendi.");
