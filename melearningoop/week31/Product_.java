@@ -1,15 +1,29 @@
-package melearningoop.week21;
+package melearningoop.week31;
 
-public class Product {
-    //attribute & field
+// Constructor
+public class Product_ {
+
+    public Product_(int id, String name, String description, double price, int stockAmount, String colour) {
+        System.out.println("Yapıcı blok çalıştı.");
+        this.id = id;
+        this.name = name;
+        this.description = description;
+        this.price = price;
+        this.stockAmount = stockAmount;
+        this.colour = colour;
+    }
+
+    public Product_(){
+        //overloading
+    }
+
     private int id;
     private String name;
     private String description;
     private double price;
     private int stockAmount;
     private String colour;
-    private String code;
-    //to generate getters/setters Ctrl + .
+
     public String getName() {
         return name;
     }
@@ -50,24 +64,15 @@ public class Product {
         this.colour = colour;
     }
 
-    //getter
-    public int getId(){
+    public int getId() {
         return id;
     }
 
-    //setter
     public void setId(int id) {
-    this.id = id; // 'this' refers to the current object's 'id' field
+        this.id = id;
     }
 
     public String getCode() {
-        return this.name.substring(0,1) + id;
-    } //read-only
-    
-    /*
-    public void setCode(String code) {
-        this.code = code;
+        return this.name.substring(0, 1) + id;
     }
-     */
 }
-  

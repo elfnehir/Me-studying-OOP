@@ -2,7 +2,7 @@ package melearningoop.week21;
 
 public class ProductManager {
     // JDBC
-    public void add() {
+    public void Add(Product product) {
         System.out.println("Ürün eklendi");
     }
 }
