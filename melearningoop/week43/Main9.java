@@ -2,7 +2,7 @@ package melearningoop.week43;
 
 public class Main9 {
     public static void main(String[] args) {
-        // Array of students
+        // students is an array of Student2 objects
         Student2[] students = new Student2[] {
             new Student2(1, "John", 21),
             new Student2(2, "Jane", 22),
@@ -17,3 +17,9 @@ public class Main9 {
         }
     }
 }
+
+/*students is an array of objects.
+student is a temporary variable used in the loop to refer to the current object.
+Enhanced for loop iterates through each element in the array, one by one.
+student is a variable like x in a for loop, it is used to refer to the current object in the array.
+*/

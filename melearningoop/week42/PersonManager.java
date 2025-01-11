@@ -2,10 +2,10 @@ package melearningoop.week42;
 
 public class PersonManager {
     public void List() {
-        System.out.println("Customer listed");
+        System.out.println("Person listed");
     }
 
     public void Add() {
-        System.out.println("Customer added");
+        System.out.println("Person added");
     }
 }
